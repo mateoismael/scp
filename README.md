@@ -19,7 +19,7 @@ python3 data/generate_temp_binary.py data/temps_baseline.txt
 
 ### 3. Ejecutar
 ```bash
-make run-with-data
+timeout 30 make run-with-data
 ```
 
 ### 4. Cambiar escenario

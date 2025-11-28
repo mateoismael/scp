@@ -1,0 +1,123 @@
+# ESCENARIO EXTREMO - Múltiples anomalías térmicas
+# Simula condiciones adversas: tormenta solar + mal funcionamiento de radiadores
+# Este escenario genera MUCHAS activaciones del sistema de enfriamiento
+
+# Minuto 0-9: Inicio normal pero rápido calentamiento
+50
+55
+62
+70
+80
+88
+93
+97
+99
+99
+
+# Minuto 10-19: Temperatura crítica sostenida (prueba de estrés)
+98
+97
+96
+95
+94
+93
+92
+91
+90
+89
+
+# Minuto 20-29: Enfriamiento lento
+85
+82
+78
+75
+72
+68
+65
+62
+58
+55
+
+# Minuto 30-39: PICO EXTREMO - Tormenta solar
+52
+60
+75
+88
+95
+99
+99
+99
+99
+98
+
+# Minuto 40-49: Oscilación térmica (cooling on/off multiple veces)
+96
+93
+89
+85
+80
+75
+70
+65
+58
+52
+
+# Minuto 50-59: Segundo evento extremo
+48
+55
+68
+82
+91
+96
+99
+99
+97
+94
+
+# Minuto 60-69: Bajada rápida pero luego repunte
+90
+85
+78
+70
+62
+54
+50
+58
+70
+85
+
+# Minuto 70-79: Tercer pico crítico
+92
+97
+99
+99
+98
+95
+91
+86
+80
+74
+
+# Minuto 80-89: Zona oscura pero con radiadores fallando
+68
+62
+56
+50
+48
+52
+60
+72
+85
+93
+
+# Minuto 90-99: Final extremo - último pico antes de estabilizar
+97
+99
+99
+98
+95
+90
+83
+75
+65
+55

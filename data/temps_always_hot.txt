@@ -1,0 +1,123 @@
+# ESCENARIO CALIENTE - Satélite atrapado en zona solar constante
+# Simula fallo de orientación: siempre expuesto al sol
+# Sistema de cooling debe permanecer ACTIVO casi todo el tiempo
+
+# Minuto 0-9: Calentamiento rápido al inicio
+60
+70
+80
+88
+92
+95
+97
+98
+99
+99
+
+# Minuto 10-19: Temperatura crítica constante
+99
+98
+99
+98
+99
+97
+98
+99
+98
+99
+
+# Minuto 20-29: Intentos fallidos de enfriamiento (sigue muy caliente)
+96
+94
+92
+90
+88
+90
+92
+94
+96
+98
+
+# Minuto 30-39: Vuelta a crítico
+99
+99
+98
+97
+96
+95
+94
+93
+92
+91
+
+# Minuto 40-49: Temperatura peligrosa sostenida
+93
+95
+97
+99
+99
+98
+96
+94
+92
+91
+
+# Minuto 50-59: Pequeño alivio pero vuelve a subir
+89
+87
+85
+87
+90
+93
+96
+98
+99
+99
+
+# Minuto 60-69: Crítico nuevamente
+99
+98
+97
+96
+95
+96
+97
+98
+99
+99
+
+# Minuto 70-79: Variación mínima pero siempre alta
+98
+97
+96
+95
+94
+95
+96
+97
+98
+99
+
+# Minuto 80-89: Picos constantes
+99
+99
+98
+98
+97
+97
+96
+96
+95
+95
+
+# Minuto 90-99: Enfriamiento final gradual (sistema corrige orientación)
+93
+90
+87
+84
+80
+75
+70
+65
+58
+52

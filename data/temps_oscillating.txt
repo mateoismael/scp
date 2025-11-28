@@ -1,0 +1,123 @@
+# ESCENARIO OSCILANTE - Mal funcionamiento de control térmico
+# Simula oscilaciones rápidas entre caliente y frío
+# Prueba el sistema de cooling activándose/desactivándose constantemente
+
+# Minuto 0-9: Oscilaciones iniciales moderadas
+45
+70
+50
+75
+48
+80
+52
+85
+55
+88
+
+# Minuto 10-19: Oscilaciones EXTREMAS (cooling va a activarse/desactivarse mucho)
+92
+50
+95
+48
+98
+45
+99
+50
+96
+52
+
+# Minuto 20-29: Picos rápidos
+88
+60
+91
+58
+94
+55
+97
+52
+99
+48
+
+# Minuto 30-39: Oscilación alta (siempre cerca del límite)
+85
+92
+88
+94
+86
+96
+89
+98
+91
+99
+
+# Minuto 40-49: Descenso oscilante
+95
+75
+90
+70
+85
+65
+80
+60
+75
+55
+
+# Minuto 50-59: Subida oscilante
+50
+65
+55
+75
+60
+85
+68
+92
+75
+96
+
+# Minuto 60-69: Máxima oscilación (cooling encendido/apagado cada minuto)
+99
+50
+99
+48
+99
+52
+98
+55
+97
+58
+
+# Minuto 70-79: Oscilación moderada
+92
+65
+88
+68
+85
+70
+82
+72
+80
+75
+
+# Minuto 80-89: Subida final oscilante
+78
+88
+82
+91
+85
+94
+88
+97
+90
+99
+
+# Minuto 90-99: Estabilización forzada (simulando intervención manual)
+95
+90
+85
+80
+75
+70
+65
+60
+55
+50
